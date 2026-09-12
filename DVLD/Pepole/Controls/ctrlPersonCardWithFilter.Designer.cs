@@ -119,10 +119,11 @@
             // 
             // ctrlPersonCard1
             // 
-            this.ctrlPersonCard1.Location = new System.Drawing.Point(13, 96);
+            this.ctrlPersonCard1.Location = new System.Drawing.Point(3, 95);
             this.ctrlPersonCard1.Name = "ctrlPersonCard1";
-            this.ctrlPersonCard1.Size = new System.Drawing.Size(869, 287);
+            this.ctrlPersonCard1.Size = new System.Drawing.Size(867, 287);
             this.ctrlPersonCard1.TabIndex = 0;
+            this.ctrlPersonCard1.Load += new System.EventHandler(this.ctrlPersonCard1_Load);
             // 
             // ctrlPersonCardWithFilter
             // 
@@ -131,7 +132,7 @@
             this.Controls.Add(this.gbFilter);
             this.Controls.Add(this.ctrlPersonCard1);
             this.Name = "ctrlPersonCardWithFilter";
-            this.Size = new System.Drawing.Size(902, 396);
+            this.Size = new System.Drawing.Size(878, 399);
             this.gbFilter.ResumeLayout(false);
             this.gbFilter.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();

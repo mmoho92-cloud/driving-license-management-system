@@ -334,6 +334,9 @@
   <data name="Detained Driving License 32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\..\DVLD(نسخة الاستاذ)\DVLD+Project+Final\Project\DVLD\Properties\..\Resources\Detained Driving License 32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Close 321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Close 321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Release Detained License 32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\..\DVLD(نسخة الاستاذ)\DVLD+Project+Final\Project\DVLD\Properties\..\Resources\Release Detained License 32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -345,6 +348,9 @@
   </data>
   <data name="People 64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\..\DVLD(نسخة الاستاذ)\DVLD+Project+Final\Project\DVLD\Properties\..\Resources\People 64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainBackround" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainBackround.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="send email 33" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\..\DVLD(نسخة الاستاذ)\DVLD+Project+Final\Project\DVLD\Properties\..\Resources\send email 32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -406,6 +412,12 @@
   <data name="driving-test 512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\..\DVLD(نسخة الاستاذ)\DVLD+Project+Final\Project\DVLD\Properties\..\Resources\driving-test 512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MainBackround2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainBackround2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Renew Driving License 32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\..\DVLD(نسخة الاستاذ)\DVLD+Project+Final\Project\DVLD\Properties\..\Resources\Renew Driving License 32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -423,6 +435,9 @@
   </data>
   <data name="money 32 - 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\..\DVLD(نسخة الاستاذ)\DVLD+Project+Final\Project\DVLD\Properties\..\Resources\money 32 - 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Close 322" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Close 322.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Add Person 41" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\..\DVLD(نسخة الاستاذ)\DVLD+Project+Final\Project\DVLD\Properties\..\Resources\Add Person 40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -462,6 +477,9 @@
   </data>
   <data name="cross 64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\..\DVLD(نسخة الاستاذ)\DVLD+Project+Final\Project\DVLD\Properties\..\Resources\cross 64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainBackround1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainBackround1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Users 2 641" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Users 2 641.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -547,7 +565,7 @@
   <data name="Logo Final" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\..\DVLD(نسخة الاستاذ)\DVLD+Project+Final\Project\DVLD\Properties\..\Resources\Logo Final.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="login logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\login logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Backround" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backround.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

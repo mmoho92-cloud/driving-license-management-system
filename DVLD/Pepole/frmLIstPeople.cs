@@ -211,5 +211,12 @@ namespace DVLD.Pepole
         {
             this.Close();
         }
+
+        private void btnAddPerson_Click(object sender, EventArgs e)
+        {
+            frmAddUpdatePerson frm = new frmAddUpdatePerson();
+            frm.ShowDialog();
+            _RefreshPeoplList();
+        }
     }
 }

@@ -160,12 +160,14 @@
             // llEditPersonInfo
             // 
             this.llEditPersonInfo.AutoSize = true;
+            this.llEditPersonInfo.Enabled = false;
             this.llEditPersonInfo.Location = new System.Drawing.Point(673, 24);
             this.llEditPersonInfo.Name = "llEditPersonInfo";
             this.llEditPersonInfo.Size = new System.Drawing.Size(149, 25);
             this.llEditPersonInfo.TabIndex = 4;
             this.llEditPersonInfo.TabStop = true;
             this.llEditPersonInfo.Text = "Edit Person Info";
+            this.llEditPersonInfo.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llEditPersonInfo_LinkClicked);
             // 
             // pbPersonImage
             // 

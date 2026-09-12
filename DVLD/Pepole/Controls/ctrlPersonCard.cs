@@ -86,7 +86,7 @@ namespace DVLD.Pepole.Controls
                 MessageBox.Show("No Person with PersonID = " + PersonID.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-
+            llEditPersonInfo.Enabled = true;
             _FillPersonInfo();
         }
 
@@ -99,6 +99,7 @@ namespace DVLD.Pepole.Controls
                 MessageBox.Show("No Person with National No. = " + NationalNo.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+            llEditPersonInfo.Enabled = true;
 
             _FillPersonInfo();
         }
@@ -122,6 +123,12 @@ namespace DVLD.Pepole.Controls
         private void ctrlPersonCard_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void llEditPersonInfo_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmAddUpdatePerson frm = new frmAddUpdatePerson(_Person.PersonID);
+            frm.ShowDialog();
         }
     }
 }

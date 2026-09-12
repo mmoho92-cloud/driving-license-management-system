@@ -199,6 +199,7 @@
             this.btnAddPerson.Size = new System.Drawing.Size(100, 70);
             this.btnAddPerson.TabIndex = 6;
             this.btnAddPerson.UseVisualStyleBackColor = true;
+            this.btnAddPerson.Click += new System.EventHandler(this.btnAddPerson_Click);
             // 
             // btClose
             // 
