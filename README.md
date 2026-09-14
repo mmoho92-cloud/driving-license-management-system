@@ -295,7 +295,7 @@ Detailed role-based authorization and user permissions are outside the current s
 
 ### Manage Users
 
-![Manage Users](Screenshots/MangeUser Screen.png)
+![Manage Users](Screenshots/MangeUserScreen.png)
 
 ### Manage Drivers
 
@@ -339,7 +339,7 @@ Advanced production-level concerns such as role-based authorization, automated t
 
 ## Author
 
-**Mohamad AlMoho**
+**Mohamad AlMaho**
 
 GitHub:  
 https://github.com/mmoho92-cloud
