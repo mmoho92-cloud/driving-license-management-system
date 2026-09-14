@@ -13,7 +13,7 @@ A desktop management application for the **Driving & Vehicle License Department 
 
 The application provides a centralized system for managing people, users, drivers, driving license applications, tests, licenses, and related operations.
 
-![DVLD Main Screen](ScreenShots/MainScreen.png)
+![DVLD Main Screen](Screenshots/MainScreen.png)
 
 ---
 
@@ -150,8 +150,8 @@ DVLD+Project+Final
 ├── .gitignore
 │
 └── DVLD+Project+Final.slnx
+```
 
----
 
 ## Getting Started
 
@@ -165,7 +165,6 @@ Before running the application, make sure the following are installed:
 - Microsoft SQL Server
 - SQL Server Management Studio (SSMS)
 
----
 
 ## Database Setup
 
@@ -280,43 +279,43 @@ Detailed role-based authorization and user permissions are outside the current s
 
 ### Login
 
-![DVLD Login](ScreenShots/Login.png)
+![DVLD Login](Screenshots/Login.png)
 
 ### Main Screen
 
-![DVLD Main Screen](ScreenShots/MainScreen.png)
+![DVLD Main Screen](Screenshots/MainScreen.png)
 
 ### Applications Menu
 
-![Applications Menu](ScreenShots/ApplicationsMenue.png)
+![Applications Menu](Screenshots/ApplicationsMenue.png)
 
 ### Manage People
 
-![Manage People](ScreenShots/MangePepoleScreen.png)
+![Manage People](Screenshots/MangePepoleScreen.png)
 
 ### Manage Users
 
-![Manage Users](ScreenShots/MangeUserScreen.png)
+![Manage Users](Screenshots/MangeUser Screen.png)
 
 ### Manage Drivers
 
-![Manage Drivers](ScreenShots/MangeDriversScreen.png)
+![Manage Drivers](Screenshots/MangeDriversScreen.png)
 
 ### Manage Applications
 
-![Manage Applications](ScreenShots/MangeApplicationsScreen.png)
+![Manage Applications](Screenshots/MangeApplicationsScreen.png)
 
 ### Manage Application Types
 
-![Manage Application Types](ScreenShots/MangeApplicationTypesSeccren.png)
+![Manage Application Types](Screenshots/MangeApplicationTypesSeccren.png)
 
 ### International License Applications
 
-![International License Applications](ScreenShots/MangeInternalionalLicenseApplicationScreen.png)
+![International License Applications](Screenshots/MangeInterNationalLicenseApplicatiocScreen.png)
 
 ### Detained Licenses
 
-![Detained Licenses](ScreenShots/DeteinLicenseScreen.png)
+![Detained Licenses](Screenshots/DeteinLicenseScreen.png)
 
 ---
 
