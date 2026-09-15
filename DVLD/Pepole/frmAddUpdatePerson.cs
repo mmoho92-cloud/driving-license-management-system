@@ -203,6 +203,7 @@ namespace DVLD.Pepole
             _Person.CountryInfo = clsCountry.Find(NationaltyCountryN);
             _Person.DateOfBirth = dtpDateOfBirth.Value;
             _Person.NationalNo = tbNationalN.Text;
+            _Person.Phone = tbPhone.Text.Trim();
 
             if (rbFemale.Checked)
             {

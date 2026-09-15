@@ -157,7 +157,7 @@ namespace DVLD.Application.Local_Driving_License
             int LicenseClassID = clsLicenseClass.Find(cbLicenseClass.Text).LicenseClassID;
 
 
-            int ActiveApplicationID = clsApplication.GetActiveApplicationIDForLicenseClass(_SelectedPersonID, clsApplication.enApplicationType.NewDrivingLicense, LicenseClassID);
+            int ActiveApplicationID = clsApplication.GetActiveApplicationIDForLicenseClass(ctrlPersonCardWithFilter1.PersonID, clsApplication.enApplicationType.NewDrivingLicense, LicenseClassID);
 
             if (ActiveApplicationID != -1)
             {
@@ -167,13 +167,14 @@ namespace DVLD.Application.Local_Driving_License
             }
 
 
-            ////check if user already have issued license of the same driving  class.
-            //if (clsLicense.IsLicenseExistByPersonID(ctrlPersonCardWithFilter1.PersonID, LicenseClassID))
-            //{
+            //check if user already have issued license of the same driving  class.
+            if (clsLicense.IsLicenseExistByPersonID(ctrlPersonCardWithFilter1.PersonID, LicenseClassID))
+            {
 
-            //    MessageBox.Show("Person already have a license with the same applied driving class, Choose diffrent driving class", "Not allowed", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //    return;
-            //}
+                MessageBox.Show("Person already have a license with the same applied driving class, Choose diffrent driving class", "Not allowed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+           
 
             _LocalDrivingLicenseApplication.ApplicantPersonID = ctrlPersonCardWithFilter1.PersonID; ;
             _LocalDrivingLicenseApplication.ApplicationDate = DateTime.Now;

@@ -96,6 +96,7 @@ namespace DVLD.Pepole
         {
             frmAddUpdatePerson frm = new frmAddUpdatePerson((int)dgvPeople.CurrentRow.Cells[0].Value);
             frm.ShowDialog();
+            _RefreshPeoplList();
         }
 
         private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
@@ -122,6 +123,7 @@ namespace DVLD.Pepole
         {
             frmAddUpdatePerson frm = new frmAddUpdatePerson();
             frm.ShowDialog();
+            _RefreshPeoplList();
         }
 
         private void NotImplementedYet(object sender, EventArgs e)
@@ -217,6 +219,7 @@ namespace DVLD.Pepole
             frmAddUpdatePerson frm = new frmAddUpdatePerson();
             frm.ShowDialog();
             _RefreshPeoplList();
+
         }
     }
 }
